@@ -11,6 +11,19 @@ package ec.edu.espoch.tareaenclases;
 public class TareaEnClases {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        
+        Estudiantes estudianteUno = new Estudiantes();//primer objeto 
+        estudianteUno.nombre="Jonathan";
+        estudianteUno.identificacion =1711627081;
+        System.out.println("nombre"+estudianteUno.nombre);
+        System.out.println("identificacion"+estudianteUno.identificacion);
+        
+         Estudiantes estudianteDos = new Estudiantes();//primer objeto 
+        estudianteDos.nombre="FERNANDA";
+        estudianteDos.identificacion =1103162119;
+        System.out.println("nombre"+estudianteDos.nombre);
+        System.out.println("identificacion"+estudianteDos.identificacion);
+
+        
     }
 }

@@ -8,11 +8,11 @@ package ec.edu.espoch.tareaenclases;
  *
  * @author GIGABYTE
  */
-public class Estudiante 
+public class Estudiantes 
 {
     //atributos
     public String nombre;
-     public String identifacion;
+     public int   identificacion;
       public float promedio;
       //metodos
        public void incribirseEnCurso( )

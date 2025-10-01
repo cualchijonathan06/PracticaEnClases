@@ -8,15 +8,15 @@ package ec.edu.espoch.tareaenclases;
  *
  * @author GIGABYTE
  */
-public class Curso 
+public class Cursos
 {
     
     //atributos
     public String nombreCurso;
      public String  codigo;
-       public Estudiante[]  listaDeEstudiante;
+       public Estudiantes[]  listaDeEstudiante;
     //metodos
-     public void agregarEstudiante ()
+     public void agregarEstudiante () 
      {  
          
      }
